@@ -1,0 +1,29 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+    width: 1140px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* fungsi untuk menengahkan container ml and mr auto  agar ke tengah*/
+    margin: 0 auto;
+}
+
+.nav .container{
+    display: flex;
+    /* agar sesuai dengan algoritma flexbox san masuk flexitem kes samping tidak kebawah lagi */
+}
+
+.nav .brand,
+.nav .menu,
+.nav .ctas{
+    width: calc(100% / 3);
+    /* 100% / 3 untuk menentukan lebar tiap flex item  agar bisa dibagi 3 dengan presisi*/
+}
+
+.nav .ctas {
+    text-align: right;
+    /* untuk mengatur text ke kanan  pada sign up*/
+}
+
